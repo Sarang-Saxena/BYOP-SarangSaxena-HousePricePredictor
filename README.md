@@ -1,2 +1,64 @@
-# BYOP-SarangSaxena-HousePricePredictor
-This is a house price predictor model which uses libraries and modules like pandas, scikit learn and matplotlib to compare the actual prices and predicted prices based on number of bedrooms,bathrooms,stories etc and make a comparison table and a scatter plot graph to compare the prices
+# HOUSE PRICE PREDICTION MODEL BY SARANG SAXENA
+
+A simple and clean Python project that predicts house prices based on features like area, number of bedrooms, bathrooms, stories, and parking.
+
+## PROJECT OVERVIEW 
+
+This project uses **Linear Regression** (the simplest machine learning algorithm) to predict house prices in India (in Rs).
+
+- It trains on real house data from **data.csv**
+- Shows actual vs predicted prices in a clean table
+- Displays a visual comparison graph
+
+## FEATURES 
+
+- Loads and cleans the dataset automatically
+- Trains a Linear Regression model
+- Predicts house prices
+- Shows **first 100 predictions** with **original full prices** 
+- Displays a scatter plot comparing actual vs predicted prices (in Lakhs)
+
+## REQUIREMENTS 
+
+You need to have these installed:
+
+- Python 3.8 or higher
+- The following libraries:
+  ```bash
+  pandas
+  scikit-learn
+  matplotlib
+
+## HOW TO RUN THIS 
+
+Clone or download this repository.
+Open the folder in Visual Studio Code.
+Make sure both files are in the same folder:
+MyMainCode.py
+data.csv
+
+Open the Python file and run it 
+
+You will see:
+
+A message saying how many rows were loaded
+A table with Actual Price vs Predicted Price (first 100 rows)
+A scatter plot comparing actual vs predicted prices (in lakhs)
+
+## FILES IN THIS REPOSITORY
+
+data.csv → House price dataset
+MyMainCode.py → Main Python script with full comments to increase the readability of the code for a even a beginner
+README.md → File that gives the whole description about this project (This file)
+
+## SCATTER PLOT GRAPH 
+
+Black dots = Actual house prices
+Orange stars = Predicted prices
+
+## TECHNOLOGIES USED 
+
+Python
+Pandas (data handling)
+Scikit-learn (Linear Regression)
+Matplotlib (visualization)
